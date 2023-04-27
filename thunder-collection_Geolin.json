@@ -1,0 +1,101 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Geolin",
+    "dateExported": "2023-04-25T13:13:59.195Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "510088e2-edee-42e2-b731-83cceda305b3",
+            "colId": "4a0d7e01-9749-4bdd-bf99-c8cf01ba9880",
+            "containerId": "",
+            "name": "REGISTER  A USER",
+            "url": "http://localhost:4000/users/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-04-25T13:01:34.460Z",
+            "modified": "2023-04-25T13:06:28.840Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"firstName\": \"Jason\",\n    \"lastName\": \"Watmore\",\n    \"username\": \"jason\",\n    \"password\": \"my-super-secret-password\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsImlhdCI6MTY4MjQyNzAxNiwiZXhwIjoxNjgzMDMxODE2fQ.ViYx6sso5lWRdavSwzs3VpAzljk0c1s2GfFd1EMsHgI"
+            },
+            "tests": []
+        },
+        {
+            "_id": "e4483c25-fd26-4b3c-a10c-673c6bc34c20",
+            "colId": "4a0d7e01-9749-4bdd-bf99-c8cf01ba9880",
+            "containerId": "",
+            "name": "AUTHENTICATE",
+            "url": "http://localhost:4000/users/authenticate",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-04-25T13:03:21.780Z",
+            "modified": "2023-04-25T13:09:31.309Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"username\": \"jason\",\n    \"password\": \"my-super-secret-password\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjMsImlhdCI6MTY4MjQyODE1NywiZXhwIjoxNjgzMDMyOTU3fQ.R6SVWPgdKkhexAoiLZRwMUxtpsOqI8PcnBuLzVGC5Ao"
+            },
+            "tests": []
+        },
+        {
+            "_id": "d6226457-18f0-496c-98ee-00a66cc41eca",
+            "colId": "4a0d7e01-9749-4bdd-bf99-c8cf01ba9880",
+            "containerId": "",
+            "name": "GET ALL USERS",
+            "url": "http://localhost:4000/users/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-04-25T13:05:20.764Z",
+            "modified": "2023-04-25T13:06:36.032Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"username\": \"jason\",\n    \"password\": \"my-super-secret-password\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsImlhdCI6MTY4MjQyNzAxNiwiZXhwIjoxNjgzMDMxODE2fQ.ViYx6sso5lWRdavSwzs3VpAzljk0c1s2GfFd1EMsHgI"
+            },
+            "tests": []
+        },
+        {
+            "_id": "c2e3858d-412a-4741-9d1e-c7d8d284e876",
+            "colId": "4a0d7e01-9749-4bdd-bf99-c8cf01ba9880",
+            "containerId": "",
+            "name": "UPDATE USER",
+            "url": "http://localhost:4000/users/3",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-04-25T13:13:34.122Z",
+            "modified": "2023-04-25T13:13:34.122Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "\r\n{\r\n    \"firstName\": \"Jason\",\r\n    \"lastName\": \"Watmore\",\r\n    \"username\": \"jaso898988\",\r\n    \"password\": \"my-super-secret-password\"\r\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsImlhdCI6MTY4MjQyNzAxNiwiZXhwIjoxNjgzMDMxODE2fQ.ViYx6sso5lWRdavSwzs3VpAzljk0c1s2GfFd1EMsHgI"
+            },
+            "tests": []
+        }
+    ]
+}
